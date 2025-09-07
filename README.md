@@ -60,9 +60,11 @@ Your `.env` file should contain the following variables:
 .env.example
 
 Your MongoDB connection string
+
 MONGO_URI="mongodb+srv://user:password@cluster.mongodb.net/yourDatabaseName"
 
 Your secret key for signing JSON Web Tokens
+
 JWT_SECRET="your_super_secret_key"
 
 ---
