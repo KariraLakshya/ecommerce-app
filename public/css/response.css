@@ -1,0 +1,84 @@
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .container {
+        width: 95%;
+        padding: 10px 0;
+    }
+    
+    .filters {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .filters select,
+    .filters input {
+        width: 100%;
+    }
+    
+    .item-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .cart-item {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .nav-links {
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    
+    .nav-links button {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+    
+    .auth-container {
+        padding: 30px 20px;
+        margin: 0 10px;
+    }
+    
+    .logo {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+    
+    .item-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .item-card {
+        margin: 0 10px;
+    }
+    
+    .nav-links button {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+    
+    .cart-item {
+        padding: 15px;
+        gap: 15px;
+    }
+    
+    .cart-item img {
+        width: 80px;
+        height: 80px;
+    }
+}
