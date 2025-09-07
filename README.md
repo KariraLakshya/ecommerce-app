@@ -58,6 +58,7 @@ To get a local copy up and running, follow these simple steps.
 Your `.env` file should contain the following variables:
 
 .env.example
+
 Your MongoDB connection string
 MONGO_URI="mongodb+srv://user:password@cluster.mongodb.net/yourDatabaseName"
 
